@@ -1,0 +1,78 @@
+*   {box-sizing: border-box;} 
+    
+
+.header {
+    border: 1px rgb(230, 46, 22);
+    padding: 15px;
+    margin: 7px;
+    color: rgb(253, 10, 10);
+    background-color: rgb(200, 0, 255);
+}
+.menu ul{
+   list-style-type: none;
+   margin: 0%;
+   padding: 0%;
+}
+.menu li{
+    display: grid;
+    width: 23%;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover{
+    background-color: #1e00b6;
+}
+.main{
+    width: 75%;
+    float: left;
+    padding: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 52%);
+}
+.first{
+    width: 75%;
+    float: left;
+    padding: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(133,255,24,1) 0%, rgba(0,212,255,1) 90%);
+}
+.second{
+    width: 75%;
+    float: left;
+    padding: 5px;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(2,4,8,1) 82%);
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+h1{
+    font-size: 70px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    background: -webkit-linear-gradient(#eee, #0d0c0c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit
+    text-align: center;
+}
+.second p{
+    font-size: 20px;
+   color: #eee;
+    text-align: justify;
+}
